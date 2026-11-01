@@ -1,0 +1,27 @@
+# Local settings (may hold a password)
+conf/archive_manager.env
+.env
+*.env
+!conf/archive_manager.env.example
+
+# Oracle wallets and network files
+wallet/
+*.sso
+*.p12
+cwallet*
+ewallet*
+tnsnames.ora
+sqlnet.ora
+
+# Logs and SQL*Plus output
+logs/
+*.log
+*.lst
+*.out
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

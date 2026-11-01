@@ -1,0 +1,6 @@
+# Keep LF line endings: bash and SQL*Plus on Linux break on CRLF.
+* text=auto eol=lf
+*.sh  text eol=lf
+*.sql text eol=lf
+*.pks text eol=lf
+*.pkb text eol=lf
